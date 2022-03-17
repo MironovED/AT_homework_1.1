@@ -6,16 +6,6 @@ import static org.testng.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
 
-    @org.testng.annotations.Test
-    public void shouldReturn1000IfAmountIs2000() {
-        CashbackHackService service = new CashbackHackService();
-
-        int actual = service.remain(2000);
-        int expected = 1000;
-
-        assertEquals(actual, expected);
-
-    }
 
     @org.testng.annotations.Test
     public void shouldReturn0IfAmountIs1000() {
