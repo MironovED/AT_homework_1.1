@@ -6,16 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
 
-    @org.junit.Test
-    public void shouldReturn1000IfAmountIs2000() {
-        CashbackHackService service = new CashbackHackService();
-
-        int actual = service.remain(2000);
-        int expected = 1000;
-
-        assertEquals(expected, actual);
-
-    }
 
     @org.junit.Test
     public void shouldReturn0IfAmountIs1000() {
